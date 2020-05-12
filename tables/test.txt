@@ -1,0 +1,5 @@
+"select * from map_zal-skl9.csv"
+"select row from map_zal-skl9.csv group by row, col"
+"select distinct row, case when row <= 4 then 5 when row < 10 then 111 else 0 end as ttttt from map_zal-skl9.csv"
+"select * from map_zal-skl9.csv inner join mp-assistants.csv on map_zal-skl9.csv.id_mp = mp-assistants.csv.mp_id"
+"select distinct row, case when row <= 10 then 0 when row <= 20 then ii else xx end as ttt from map_zal-skl9.csv"
